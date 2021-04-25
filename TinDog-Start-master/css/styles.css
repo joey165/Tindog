@@ -1,0 +1,124 @@
+#title{
+    background-color: #ff4c68;
+}
+ #title .container-fluid{
+    padding: 3% 15% 7%;
+  }
+h1{
+    font-family:"Montserrat-Black";
+    font-size: 5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight: bolder;
+}
+body{
+    font-family:"Montserrat";
+}
+ #title .navbar{
+    padding-bottom: 5rem;
+}
+ #title .navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+ #title .nav-item{
+    padding: 0 18px;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+ .download-button{
+     width: 5% 3% 5% 0;
+ }
+  #title .container-fluid{
+      padding: 3% 14% 15%;
+  }
+  #features{
+      padding: 7% 15%;
+      position: relative;
+      background-color: #fff;
+      position: relative;
+      z-index: 1;
+  }
+  #features .feature-box{
+      text-align: center;
+      padding: 4.5%;
+  }
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+  #testimonials{
+     
+      text-align: center;
+      background-color: #ef8172;
+      color: #fff;
+  }
+
+  .testimonial-image{
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+  }
+
+  #press{
+    background-color: #ef8172;
+  }
+  .press-logo{
+      width: 15%;
+      margin: 20px 20px 50px;
+      
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+  #pricing{
+      padding: 100px;
+  }
+  .pricing-column{
+      padding: 3% 2%;
+  }
+  @media (max-width:1028px){
+      #title{
+          text-align: center;
+      }
+      .title-image{
+          position: static;
+          transform: rotate(0);
+      }
+  }
+  #cta{
+      background-color: #ff4c68;
+      color: #fff;
+      padding: 7% 15%;
+  }
+  .cta-heading{
+      font-family: "Montserrat-Black";
+      font-size: 3.5rem;
+      line-height: 1.5;
+  }
+  #footer{
+      padding: 7% 15%;
+      text-align: center;
+  }
+  .social-icon{
+      margin: 20px 10px;
+  }
